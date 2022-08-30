@@ -3,4 +3,6 @@ for(int a = 5; a <= 10; a++){
 system.out.println(a);
 }
 
-system.out.println("practice complete");
+String a = "Flower, is, beautiful"
+system.out.println(a.split(","));
+
