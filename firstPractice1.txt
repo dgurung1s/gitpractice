@@ -4,5 +4,16 @@ system.out.println(a);
 }
 
 String a = "Flower, is, beautiful"
-system.out.println(a.split(","));
+
+String result = a.splti(",");
+system.out.println(result[0]);
+
+count = 0
+for (int x = 0; x = a.length(); a++){
+	if(a.charAt(x) == "i"){
+		count = count +1;
+}
+}
+system.out.println(count);
+
 
